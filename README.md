@@ -25,7 +25,6 @@
 - **Table View**: View, edit, and delete records in a responsive grid.
 - **Data Analysis**: Built-in charting tool to visualize data with Bar, Line, Scatter, and Pie charts.
 - **Excel Export**: Export your entire dataset or selected rows to Excel (`.xlsx`) with a single click.
-- **ER Diagrams**: Generate Entity-Relationship (ER) diagrams to visualize your database structure.
 
 ### 🛠️ Advanced Tools
 - **Database Manager**: View and manage multiple internal SQLite databases.
@@ -103,7 +102,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 **Shaikh Ahemad**
 - **Role**: Developer & SAP ABAP Consultant
-- **Website**: [shaikhahemad.github.io](https://shaikhahemad.github.io/mywebsite/)
+- **Website**: [shaikhahemad](https://shaikhahemad.github.io/mywebsite/)
 
 ---
 
