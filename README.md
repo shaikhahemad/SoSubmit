@@ -1,86 +1,110 @@
-# SOSubmit
- 
-****S. O. meane not only Seven One, But also****
-- **Streamline Operations**
-- **Smart Organizer**
-- **Secure Output**
-- **Speedy Operations**
-- **Seamless Organization**
+# 📋 SoSubmit - Smart Form & Data Management
 
-<hr>
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge&logo=windows)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-## Features
+**SoSubmit** is a powerful, desktop-based data management application designed to streamline operations. It allows you to create dynamic forms, manage databases, visualize data, and generate schema diagrams—all in a modern, user-friendly interface.
 
-### 1. Dynamic Form Creation
-- Create custom forms with user-defined fields.
-- Supports multiple data types: Text, Numeric, Date, Datetime, Timestamp, and Boolean.
-- **Custom Boolean Labels**: Customize "True" and "False" values (e.g., "Active/Inactive", "Yes/No").
-- **Strict Validation**: 
-  - Identifiers (Database, Table, Field names) must start with a letter and contain only alphanumeric characters or underscores.
-  - Prevents SQL Injection and ensures data integrity.
+---
 
-### 2. Data Entry & Management
-- User-friendly data entry forms generated automatically from your schema.
-- **Smart Inputs**: 
-  - Boolean fields rendered as Radio Buttons with custom labels.
-  - Date pickers for date fields (planned).
-- **Data Validation**: 
-  - Prevents entering text in numeric fields.
-  - Checks for duplicate entries where applicable.
+## 🚀 Key Features
 
-### 3. Table View & Editing
-- View data in a responsive table layout.
-- **Inline Editing**: Double-click or select rows to edit data easily.
-- **Data Integrity**: 
-  - Boolean values displayed as their custom labels (e.g., "Active" instead of "1").
-- **Export**: Export data to Excel (.xlsx) or CSV formats. Choose to export all data or only selected rows.
+### 🎨 Modern UI & Experience
+- **Dark/Light Mode**: Toggle between themes for a comfortable viewing experience.
+- **Custom Date Picker**: Intuitive calendar popup for date fields.
+- **Responsive Design**: Clean layout with a collapsible sidebar and smooth navigation.
 
-### 4. Data Analysis
-- Built-in charting tool to visualize your data.
-- Supports Bar, Line, Scatter, and Pie charts.
-- customizable X and Y axes based on your form fields.
+### 📝 Dynamic Forms
+- **Custom Fields**: Create tables with Text, Numeric, Boolean, Date, DateTime, and Timestamp fields.
+- **Smart Booleans**: Define custom labels for True/False (e.g., "Active/Inactive", "Yes/No").
+- **Auto-Timestamps**: `TIMESTAMP` and `DATETIME` fields automatically capture the submission time.
+- **Validation**: Built-in strict validation to ensure data integrity and prevent SQL injection.
 
-### 5. Database Management
-- Create and manage multiple SQLite databases within the app.
-- Delete forms and databases with safety checks.
+### 📊 Data Management & Analysis
+- **Table View**: View, edit, and delete records in a responsive grid.
+- **Data Analysis**: Built-in charting tool to visualize data with Bar, Line, Scatter, and Pie charts.
+- **Excel Export**: Export your entire dataset or selected rows to Excel (`.xlsx`) with a single click.
+- **ER Diagrams**: Generate Entity-Relationship (ER) diagrams to visualize your database structure.
 
-<hr>
+### 🛠️ Advanced Tools
+- **Database Manager**: View and manage multiple internal SQLite databases.
+- **Secure**: Application signed with version metadata to ensure authenticity.
 
-## Technologies Used
-- *Python Programming*
-- *Tkinter [GUI]*
-- *CustomeTkinter*
-- *SQLite3 [Database]*
-- *Pandas*
-- *OpenPyXL*
+---
 
-<hr>
+## 🛠️ Technology Stack
 
-## Installation
+- **Language**: Python 3.10+
+- **GUI Framework**: CustomTkinter types (Modern Tkinter)
+- **Database**: SQLite3
+- **Data Processing**: Pandas, OpenPyXL
+- **Visualization**: Matplotlib
+- **Packaging**: PyInstaller, Inno Setup
 
-1. Clone the repository:
+---
 
+## 📦 Installation
+
+1.  **Clone the Repository**:
     ```bash
-    git clone https://github.com/shaikhahemad/SOSubmit
+    git clone https://github.com/shaikhahemad/SoSubmit.git
+    cd SoSubmit
     ```
 
-2. Install dependencies:
-   ```bash
-   cd SOSubmit
-   ```
+2.  **Install Dependencies**:
     ```bash
-   pip install -r requirements.txt
+    pip install -r requirements.txt
     ```
-<hr>
 
-## Usage
+3.  **Run the Application**:
+    ```bash
+    python main.py
+    ```
 
-  ```bash
-   python src/main.py
-  ```
-or
-  ```bash
-   python3 src/main.py
-  ```
+---
 
-<hr># SoSubmit
+## 📖 Usage Guide
+
+1.  **Create a Form**:
+    - Click **"+ Create New Form"** in the sidebar.
+    - Enter a Database Name and Table Name.
+    - Define your fields and their types (Text, Numeric, Date, Boolean, etc.).
+    - Click **"Submit Schema"** to generate the form.
+
+2.  **Add Data**:
+    - Navigate to your new form via the sidebar.
+    - Click **"Add Row"** to open the entry form.
+    - Fill in the details (Date fields have a picker, Booleans use radio buttons).
+    - Press **Enter** on the last field to quick-submit!
+
+3.  **Analyze Data**:
+    - In the table view, click **"Analyze"**.
+    - Select a Chart Type and choose your X/Y axes to visualize trends.
+
+4.  **Export**:
+    - Select rows (or select none for all) and click **"Export"** to save as Excel.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
+
+---
+
+## 👤 Author
+
+**Shaikh Ahemad**
+- **Role**: Developer & SAP ABAP Consultant
+- **Website**: [shaikhahemad.github.io](https://shaikhahemad.github.io/mywebsite/)
+
+---
+
+*“S.O. means not only Seven One, but also Streamline Operations, Smart Organizer, Secure Output, Speedy Operations, and Seamless Organization.”*
