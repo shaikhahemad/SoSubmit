@@ -1,0 +1,6 @@
+customtkinter
+pandas
+matplotlib
+Pillow
+openpyxl
+tkcalendar

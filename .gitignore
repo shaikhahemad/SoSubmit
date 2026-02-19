@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+sosubmit/
+venv/
+env/
+.venv/
+
+# PyInstaller
+build/
+dist/
+
+# Database
+.db/
+*.db
+*.sqlite3
+
+# Project specific - User Data
+Excel/
+*.xlsx
+*.log
+
+# Installers
+*_Setup_*.exe
+Output/
+
+# IDE/Editors
+.vscode/
+.idea/
+.gemini/
