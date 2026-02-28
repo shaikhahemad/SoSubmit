@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/img/logo.png" alt="SoSubmit Logo" width="120" />
+<img src="assets/img/sosubmit.png" alt="SoSubmit Logo" width="120" />
 
 # 📋 SoSubmit
 
